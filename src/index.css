@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    transition: all ease-in-out .1s;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav .menu-option.active{
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+}
+
+section.section-principal{
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .8)), url(/images/bg-principal.jpg);
+    height: 480px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+    display: flex;
+    align-items: center;
+}
+
+.card-content{
+    transition: all ease-in-out 300ms;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card-projects:hover > .card-content{
+    transition: all ease-in-out 300ms;
+    opacity: 1;
+}
