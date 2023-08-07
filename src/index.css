@@ -39,5 +39,5 @@ section.section-principal{
 .card-projects:hover > .card-content{
     transition: all ease-in-out 300ms;
     opacity: 1;
-    display: block;
+    display: flex;
 }
