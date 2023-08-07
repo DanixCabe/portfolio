@@ -4,6 +4,7 @@ export const myTechnolgies = [
     {image: 'javascript', name: 'JavaScript'},
     {image: 'bootstrap', name: 'Bootsrap'},
     {image: 'react', name: 'React'},
+    {image: 'redux', name: 'Redux'},
     {image: 'sass', name: 'SASS'},
     {image: 'tailwindcss', name: 'Tailwind CSS'},
     {image: 'jquery', name: 'JQuery'},
