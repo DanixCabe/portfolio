@@ -1,1 +1,1 @@
-export * from './useMenuOpen'
+export * from './useMenuOpen';
