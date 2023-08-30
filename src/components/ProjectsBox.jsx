@@ -4,13 +4,13 @@ import { CgWebsite } from "react-icons/cg"
 
 
 export const ProjectsBox = ({project}) => {
-    const { image, name, technologies, page, repository} = project
+    const { image, name, type,  technologies, page, repository} = project
 
 
     return (
         <div className="card rounded-lg bg-white w-96  overflow-hidden relative border border-slate-700">
             <div className="">
-                <img src={`/images/projects/${image}.png`} alt="" className="w-auto h-auto mx-auto "/>
+                <img src={`/images/projects/${image}.png`} alt="" className="w-auto h-auto mx-auto max-w-sm max-h-56"/>
             </div>
             <div data-id={image} className="card-content text-center h-auto">
                 <div className="card-body px-4 py-4  ">
@@ -20,7 +20,7 @@ export const ProjectsBox = ({project}) => {
                             href={page}
                             target="_blank"
                             className="flex items-center justify-center xxs:text-sm xs:text-lg sm:text-lg font-bold border-[1px] rounded-full mt-2 py-1 xxs:w-28 xs:w-36 sm:w-36 duration-300  border-cyan-500 bg-cyan-500 text-white  hover:border-indigo-600 hover:bg-indigo-600">
-                            Website
+                            {type}
                             <CgWebsite className="ml-2 duration-300"/>
                             </a>
                         <a 
