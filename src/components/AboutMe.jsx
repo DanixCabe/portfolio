@@ -12,7 +12,11 @@ export const AboutMe = () => {
                     CV Daniel Gizzi</a>
                 </div>
                 <h2 id="technologies" className="text-4xl text-cyan-400 font-semibold">About me</h2>
-                <p className="text-xl text-slate-200 mt-10 ">I'm an autodidact Front End Developer, <span className="md:block lg:block xl:block">that effort day-to-day to improve my knowledge in the field.</span></p>
+                <p className="text-xl text-slate-200 mt-10 ">
+                    +4 years of experience as a Front-End Developer with a strong passion for continuous learning and professional growth. I
+                    possess excellent adaptability to new environments, meticulous planning and organization skills, outstanding
+                    communication abilities, and a constructive approach to receiving and incorporating feedback.
+                </p>
             </div>
         </>
     )
