@@ -8,15 +8,15 @@ export default {
     theme: {
         extend: {},
         screens: {
-        '3xl': {'min': '1920px'},
-        '2xl': {'min': '1535px' },
-        '1xl': {'min': '1440px'},
-        'xl': {'min': '1200px'},
-        'lg': {'min': '1023px'},
-        'md': {'min': '767px'},
-        'sm': {'min': '560px'},
-        'xs': {'min': '360px'},
-        'xxs': {'min': '1px', max: '359px'},
+        '3xl': '1920px',
+        '2xl': '1535px' ,
+        '1xl': '1440px',
+        'xl': '1200px',
+        'lg': '1023px',
+        'md': '767px',
+        'sm': '560px',
+        'xs': '360px',
+        'xxs': '1px',
         }
     },
     plugins: [
