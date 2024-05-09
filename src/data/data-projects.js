@@ -9,6 +9,15 @@ export const myProjects = [
         description: 'Is an e-commerce website was create for practice my skills with React because I want to improve my knowledge. Also, I used Firebase if you want to create accounts with normal form or using Google mail.',
     },
     {
+        image: 'concentration',
+        name: 'Concentration or Memory',
+        type: 'Website',
+        technologies: ['html', 'css3', 'react', 'javascript', 'tailwindcss', 'redux'], 
+        page: 'https://expo.dev/artifacts/eas/t47wUTRYrWX1uNHZZVygpn.apk', 
+        repository: 'https://github.com/DanixCabe/weather-app',
+        description: 'It is a game in which you must find the even cards to win.',
+    },
+    {
         image: 'todoapp',  
         name: 'To Do List', 
         type: 'Website',
@@ -17,12 +26,4 @@ export const myProjects = [
         repository: 'https://github.com/DanixCabe/todoapp',
         description: 'Is an website was create for practice my skills with React.  This is my first project with these technologies. In this project you can add, checked and delete your TO DO LIST.',
     },
-/*     {
-        image: 'weatherapp',
-        name: 'Weather App',
-        type: 'APK',
-        technologies: ['css3', 'react', 'tailwindcss', 'redux'], 
-        page: 'https://expo.dev/artifacts/eas/t47wUTRYrWX1uNHZZVygpn.apk', 
-        repository: 'https://github.com/DanixCabe/weather-app'
-    }, */
 ];
